@@ -6,21 +6,16 @@ import os
 # Setting up
 setup(
     name="inventory-analysis",
-    version='0.0.2',
+    version='0.0.11',
     author="Ivan Vallenas",
     author_email="<ivan.vallenas.munoz@gmail.com>",
     url="https://github.com/ivanvallenas/inventory-analysis",
     description="Inventory Analysis package",
     long_description_content_type="text/markdown",
     packages=find_packages(),
-    install_requires=['opencv-python', 'pyautogui', 'pyaudio'],
-    keywords=['python', 'video', 'stream', 'video stream', 'camera stream', 'sockets'],
+    install_requires=[],
+    keywords=[],
     classifiers=[
-        "Development Status :: 1 - Planning",
-        "Intended Audience :: Developers",
-        "Programming Language :: Python :: 3",
-        "Operating System :: Unix",
-        "Operating System :: MacOS :: MacOS X",
-        "Operating System :: Microsoft :: Windows",
+
     ]
 )
